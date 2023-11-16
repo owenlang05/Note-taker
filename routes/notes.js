@@ -8,7 +8,7 @@ notes.get('/', (req, res) => {
 
 // POST Route for a new UX/UI tip
 notes.post('/', (req, res) => {
-  console.log(req.body);
+  
 
   const { title, text } = req.body;
 
